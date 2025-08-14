@@ -1,34 +1,3 @@
-﻿# Tecnicas_de_programacao
+# Técnicas de programação e Análise de Algoritmos 
 
-Este repositório foi criado como parte do estudo para a matéria de Técnicas de Programação e Análise de Algoritmos. Ele contém implementações de diferentes algoritmos e estruturas de dados, com foco na Análise de Complexidade Assintótica (notações O, Omega e Theta).
-
-Objetivo
-O principal objetivo deste projeto é demonstrar a implementação prática de algoritmos com diferentes eficiências. Ao resolver um mesmo problema com abordagens distintas, é possível comparar o impacto de cada complexidade de tempo e espaço na performance.
-
-Recrutadores e profissionais de engenharia de software podem analisar este repositório para avaliar minha compreensão sobre:
-
-Fundamentos de Algoritmos: Implementação de soluções clássicas.
-
-Análise de Desempenho: Capacidade de analisar e comparar a eficiência de diferentes abordagens.
-
-Estruturas de Dados: Uso de estruturas como hash maps para otimizar o tempo de execução.
-
-Boas Práticas de Programação: Código limpo, comentado e bem estruturado.
-
-Estrutura do Projeto
-O projeto AnaliseAssintotica.c aborda um problema específico para ilustrar as diferenças entre as complexidades de tempo:
-
-Problema: Dado um array de inteiros e um valor k, encontre o número de pares de elementos cuja soma é igual a k.
-
-Soluções Implementadas:
-
-Força Bruta (O(n 
-2
- )): A abordagem mais simples, que usa laços aninhados para verificar todos os pares possíveis. Demonstra uma complexidade de tempo quadrática.
-
-Ordenação e Dois Ponteiros (O(n
-logn)): Uma solução mais otimizada que envolve ordenar o array e, em seguida, usar a técnica de dois ponteiros para encontrar os pares. A complexidade de tempo é dominada pelo algoritmo de ordenação.
-
-Tabela Hash (O(n)): A solução mais eficiente em termos de tempo, que utiliza uma tabela hash para encontrar o complemento de cada elemento em tempo constante (O(1)) em média.
-
-Cada implementação está contida em uma única função, e o arquivo principal main.c demonstra a execução de cada uma delas, com medição de tempo para evidenciar a diferença de performance na prática.
+Repositório desenvolvido para fins de estudos dos códigos desenvolvidos na matéria de Técnicas de programação e Análise de Algoritmos, no terceiro semestre de Ciência da Computação no IDP
